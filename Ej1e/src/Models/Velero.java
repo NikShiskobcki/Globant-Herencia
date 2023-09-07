@@ -11,7 +11,6 @@ public class Velero extends Barco{
     public int getCantidadMastiles() {
         return cantidadMastiles;
     }
-
     public void setCantidadMastiles(int cantidadMastiles) {
         this.cantidadMastiles = cantidadMastiles;
     }

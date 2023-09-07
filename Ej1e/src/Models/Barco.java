@@ -6,7 +6,6 @@ public class Barco {
     protected int fabricationYear;
 
     public Barco(){
-
     }
 
     public Barco(String matricula, int longitud, int fabricationYear) {
@@ -18,7 +17,6 @@ public class Barco {
     public String getMatricula() {
         return matricula;
     }
-
     public void setMatricula(String matricula) {
         this.matricula = matricula;
     }
@@ -26,7 +24,6 @@ public class Barco {
     public int getLongitud() {
         return longitud;
     }
-
     public void setLongitud(int longitud) {
         this.longitud = longitud;
     }
@@ -34,7 +31,6 @@ public class Barco {
     public int getFabricationYear() {
         return fabricationYear;
     }
-
     public void setFabricationYear(int fabricationYear) {
         this.fabricationYear = fabricationYear;
     }

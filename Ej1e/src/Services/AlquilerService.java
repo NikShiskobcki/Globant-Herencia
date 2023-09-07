@@ -34,7 +34,6 @@ public class AlquilerService {
         return alquiler;
     }
 
-
     //Un alquiler se calcula multiplicando el número de días de ocupación (calculado con la fecha de
     //alquiler y devolución), por un valor módulo de cada barco (obtenido simplemente
     //multiplicando por 10 los metros de eslora).
@@ -61,17 +60,12 @@ public class AlquilerService {
             modulo += ((Yate) alquiler.getBarco()).getPotenciaCV();
             modulo += ((Yate) alquiler.getBarco()).getCamarotes();
         }
-
         return modulo;
-
     }
 
     private static int diferenciaDias(Alquiler alquiler){
-
         long difDias = DAYS.between(alquiler.getFechaAlquiler(), alquiler.getFechaDevolucion());
-
         int dias = Math.toIntExact(difDias) ;
         return dias;
     }
-
 }

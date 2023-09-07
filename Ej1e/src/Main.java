@@ -5,13 +5,13 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner rd = new Scanner(System.in);
+
         //barcos
         Velero velero = new Velero("A12", 20, 2004, 4);
         BarcoAMotor barcoMotor = new BarcoAMotor("B10", 15, 2006, 10);
         Yate yate = new Yate("Y60", 50, 2010, 20, 5);
 
         Alquiler alquiler;
-
 
         System.out.println("Seleccione un barco para alquilar (1/2/3)");
 
@@ -46,11 +46,6 @@ public class Main {
 
         int costoAlquiler = AlquilerService.costoAlquiler(alquiler);
         System.out.println("El costo final de su alquiler es de: " + costoAlquiler);
-
-
-
-
-
 
     }
 }

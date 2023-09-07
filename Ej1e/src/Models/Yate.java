@@ -13,7 +13,6 @@ public class Yate extends Barco{
     public int getPotenciaCV() {
         return potenciaCV;
     }
-
     public void setPotenciaCV(int potenciaCV) {
         this.potenciaCV = potenciaCV;
     }
@@ -21,7 +20,6 @@ public class Yate extends Barco{
     public int getCamarotes() {
         return camarotes;
     }
-
     public void setCamarotes(int camarotes) {
         this.camarotes = camarotes;
     }
